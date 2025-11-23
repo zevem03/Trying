@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="Chess.css">
+</head>
+<body>
+    <h1>Chess Board</h1>
+    <div id="chessboard">
+        <!-- Row 8 -->
+        <div class="square white" data-position="a8">♜</div>
+        <div class="square black" data-position="b8">♞</div>
+        <div class="square white" data-position="c8">♝</div>
+        <div class="square black" data-position="d8">♛</div>
+        <div class="square white" data-position="e8">♚</div>
+        <div class="square black" data-position="f8">♝</div>
+        <div class="square white" data-position="g8">♞</div>
+        <div class="square black" data-position="h8">♜</div>
+        
+        <!-- Row 7 -->
+        <div class="square black" data-position="a7">♟</div>
+        <div class="square white" data-position="b7">♟</div>
+        <div class="square black" data-position="c7">♟</div>
+        <div class="square white" data-position="d7">♟</div>
+        <div class="square black" data-position="e7">♟</div>
+        <div class="square white" data-position="f7">♟</div>
+        <div class="square black" data-position="g7">♟</div>
+        <div class="square white" data-position="h7">♟</div>
+        
+        <!-- Row 6 -->
+        <div class="square white" data-position="a6"></div>
+        <div class="square black" data-position="b6"></div>
+        <div class="square white" data-position="c6"></div>
+        <div class="square black" data-position="d6"></div>
+        <div class="square white" data-position="e6"></div>
+        <div class="square black" data-position="f6"></div>
+        <div class="square white" data-position="g6"></div>
+        <div class="square black" data-position="h6"></div>
+        
+        <!-- Row 5 -->
+        <div class="square black" data-position="a5"></div>
+        <div class="square white" data-position="b5"></div>
+        <div class="square black" data-position="c5"></div>
+        <div class="square white" data-position="d5"></div>
+        <div class="square black" data-position="e5"></div>
+        <div class="square white" data-position="f5"></div>
+        <div class="square black" data-position="g5"></div>
+        <div class="square white" data-position="h5"></div>
+        
+        <!-- Row 4 -->
+        <div class="square white" data-position="a4"></div>
+        <div class="square black" data-position="b4"></div>
+        <div class="square white" data-position="c4"></div>
+        <div class="square black" data-position="d4"></div>
+        <div class="square white" data-position="e4"></div>
+        <div class="square black" data-position="f4"></div>
+        <div class="square white" data-position="g4"></div>
+        <div class="square black" data-position="h4"></div>
+        
+        <!-- Row 3 -->
+        <div class="square black" data-position="a3"></div>
+        <div class="square white" data-position="b3"></div>
+        <div class="square black" data-position="c3"></div>
+        <div class="square white" data-position="d3"></div>
+        <div class="square black" data-position="e3"></div>
+        <div class="square white" data-position="f3"></div>
+        <div class="square black" data-position="g3"></div>
+        <div class="square white" data-position="h3"></div>
+        
+        <!-- Row 2 -->
+        <div class="square white" data-position="a2">♙</div>
+        <div class="square black" data-position="b2">♙</div>
+        <div class="square white" data-position="c2">♙</div>
+        <div class="square black" data-position="d2">♙</div>
+        <div class="square white" data-position="e2">♙</div>
+        <div class="square black" data-position="f2">♙</div>
+        <div class="square white" data-position="g2">♙</div>
+        <div class="square black" data-position="h2">♙</div>
+        
+        <!-- Row 1 -->
+        <div class="square black" data-position="a1">♖</div>
+        <div class="square white" data-position="b1">♘</div>
+        <div class="square black" data-position="c1">♗</div>
+        <div class="square white" data-position="d1">♕</div>
+        <div class="square black" data-position="e1">♔</div>
+        <div class="square white" data-position="f1">♗</div>
+        <div class="square black" data-position="g1">♘</div>
+        <div class="square white" data-position="h1">♖</div>
+    </div>
+
+    <div id="game-info">
+        <p id="current-player">Current Player: White</p>
+        <button id="reset-game">Reset Game</button>
+    </div>
+
+    <!-- jQuery CDN (optional - remove if not needed) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Your JavaScript file -->
+    <script src="Chess.js"></script>
+</body>
+</html>
